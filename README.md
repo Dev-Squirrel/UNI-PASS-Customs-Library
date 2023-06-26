@@ -1,5 +1,5 @@
 # UNI-PASS-Customs-Library
-[![UNI-PASS-Customs-Library](./public/screenshot.png)]
+![UNI-PASS-Customs-Library](./public/screenshot.png)
 ## 어떤 프로그램인가요?
 해외직구 통관정보조회 프로그램입니다.   
 수입화물진행정보(건별) 조회는 구현 하지 않았습니다.   
