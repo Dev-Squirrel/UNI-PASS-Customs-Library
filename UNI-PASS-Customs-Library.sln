@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNI-PASS-Customs-Library", "UNI-PASS-Customs-Library\UNI-PASS-Customs-Library.csproj", "{32310F8F-2B06-4ED7-B071-33854CF400AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNI-PASS-Customs-Cli", "UNI-PASS-Customs-Cli\UNI-PASS-Customs-Cli.csproj", "{87634E7E-2319-4C92-9408-5773405DFFEB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32310F8F-2B06-4ED7-B071-33854CF400AA} = {32310F8F-2B06-4ED7-B071-33854CF400AA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32310F8F-2B06-4ED7-B071-33854CF400AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32310F8F-2B06-4ED7-B071-33854CF400AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32310F8F-2B06-4ED7-B071-33854CF400AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32310F8F-2B06-4ED7-B071-33854CF400AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87634E7E-2319-4C92-9408-5773405DFFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87634E7E-2319-4C92-9408-5773405DFFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87634E7E-2319-4C92-9408-5773405DFFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87634E7E-2319-4C92-9408-5773405DFFEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38DD855A-FC26-4F45-8461-E35653BA5403}
+	EndGlobalSection
+EndGlobal
